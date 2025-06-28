@@ -26,9 +26,9 @@ El proyecto está organizado para separar la funcionalidad en distintos paquetes
   - **`entities`**  
     Incluye la entidad `Cliente` con sus respectivos atributos y métodos.
   - **`controllers`**  
-    Contiene el controlador de cliente, encargado de la lógica principal para la gestión de clientes.
+    Contiene el controlador de cliente `ClienteController` encargado de la lógica principal para la gestión de clientes.
   - **`persistence`**  
-    Alberga la configuración de persistencia y el archivo de persistencia de cliente, donde se ejecutan exclusivamente las consultas a la base de datos solicitadas siempre desde el controlador de cliente.
+    Alberga la configuración de persistencia `ConfigJPA` y el archivo de persistencia de cliente `ClienteJPA` donde se ejecutan exclusivamente las consultas a la base de datos solicitadas siempre desde el controlador de cliente.
 
 ---
 
